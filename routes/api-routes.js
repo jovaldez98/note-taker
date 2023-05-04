@@ -30,7 +30,7 @@ router.post('/notes', (req, res) => {
 
     res.json(response);
   } else {
-    res.json('Error in posting a new note');
+    res.json('Error. Title and text required');
   }
 });
 
