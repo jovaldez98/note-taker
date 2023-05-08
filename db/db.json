@@ -12,5 +12,15 @@
         "title": "Hola",
         "text": "Hola amiga, como has estado",
         "id": "57dd"
+    },
+    {
+        "title": "Today's plan",
+        "text": "Today I am planning on studying and practicing more My SQL.",
+        "id": "fd3f"
+    },
+    {
+        "title": "For today",
+        "text": "Today was difficult to find a solution for the delete button.",
+        "id": "4ca2"
     }
 ]

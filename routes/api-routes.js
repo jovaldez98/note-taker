@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { readAndAppend, readFromFile } = require('../helpers/fsUtils');
+const { readAndAppend, readFromFile, writeToFile } = require('../helpers/fsUtils');
 const uuid = require('../helpers/uuid');
 
 // GET Route for retrieving all the feedback
@@ -33,5 +33,6 @@ router.post('/notes', (req, res) => {
     res.json('Error. Title and text required');
   }
 });
+
 
 module.exports = router;
